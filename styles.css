@@ -1,0 +1,76 @@
+/* Body styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    color: #ff5733; /* Blood-red color */
+}
+
+/* Quiz container styles */
+#quiz-container {
+    background-color: #2d2d2d; /* Dark gray background */
+    border: 2px solid #ff5733; /* Blood-red border */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Question styles */
+#question-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #ff5733; /* Blood-red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #d3321b; /* Darker red on hover */
+}
+
+/* Result styles */
+#result-container {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ff5733; /* Blood-red result background */
+    border: 2px solid #d3321b; /* Darker red border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer styles */
+#submit-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff5733; /* Blood-red color */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#submit-button:hover {
+    background-color: #d3321b; /* Darker red on hover */
+}
